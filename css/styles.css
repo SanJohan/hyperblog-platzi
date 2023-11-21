@@ -1,10 +1,12 @@
 body {
-    text-align: center;
-    font-family:'Courier New', Courier, monospace
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid black ;
@@ -16,6 +18,19 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: gray;
+#header{
+    display: flex;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    width: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+#header h1 {
+    color: white;
+    margin-left: 10px;
 }
